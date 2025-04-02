@@ -32,7 +32,7 @@ The project is divided into two main parts:
 
 3. Start the backend server:
    ```
-   npm run dev
+   npm run dev-alt
    ```
 
 ### Frontend Setup
@@ -49,7 +49,7 @@ The project is divided into two main parts:
 
 3. Start the frontend development server:
    ```
-   npm start
+   npm run start-custom
    ```
 
 ### Accessing the Application
