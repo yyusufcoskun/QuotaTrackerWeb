@@ -118,7 +118,7 @@ function App() {
       </main>
       
       <footer className="bg-bogazici-dark text-white py-4 text-center">
-        <p className="text-sm">© 2023 Boğaziçi University Course Quota Tracker</p>
+        <p className="text-sm">© 2024 Boğaziçi University Course Quota Tracker</p>
       </footer>
     </div>
   );
