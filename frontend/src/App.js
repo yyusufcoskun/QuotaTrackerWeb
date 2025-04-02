@@ -92,18 +92,6 @@ function App() {
     setFilters(prev => ({ ...prev, [name]: value }));
   };
 
-  // Apply search filter on the frontend if needed
-  const handleSearch = (searchTerm) => {
-    if (!searchTerm) return;
-    
-    // This is only needed if you want to add a search box later
-    const filtered = courses.filter(course => 
-      course.Code.toLowerCase().includes(searchTerm.toLowerCase())
-    );
-    
-    setCourses(filtered);
-  };
-
   return (
     <div className="min-h-screen bg-gray-100">
       <Header />
